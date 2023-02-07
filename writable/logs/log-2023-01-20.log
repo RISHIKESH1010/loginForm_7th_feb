@@ -1,0 +1,7 @@
+CRITICAL - 2023-01-20 12:42:48 --> Undefined variable $arr
+in APPPATH\Controllers\Home.php on line 73.
+ 1 APPPATH\Controllers\Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'APPPATH\\Controllers\\Home.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
